@@ -2,8 +2,6 @@ import random
 import prompt
 
 
-incorrect = ''''yes' is wrong answer ;(. Correct answer was 'no'.
-Let's try again,'''
 yes = 'yes'
 no = 'no'
 answer = ''
@@ -35,7 +33,8 @@ def even():
                 Let's try again, {user_name}''')
                 return
         else:
-            print(incorrect)
+            print(f''''yes' is wrong answer ;(. Correct answer was 'no'.
+                 Let's try again, {user_name}''')
             return
         counter = counter + 1
     print(f'Congratulations {user_name}!')
