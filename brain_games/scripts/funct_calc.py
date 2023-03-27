@@ -52,4 +52,4 @@ def calc():
                     f''' was '{myltip}'. Let's try again, {user_name}''')
                 return
         counter = counter + 1
-    print(f'Congratulations {user_name}!')
+    print(f'Congratulations, {user_name}!')
