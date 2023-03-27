@@ -5,8 +5,7 @@ import prompt
 def progression():
     print("Welcome to the Brain Games!")
     user_name = prompt.string("May I have your name? ")
-    print(f"Hello, {user_name}!\nFind the greatest"
-          f" common divisor of given numbers.")
+    print(f"Hello, {user_name}!\nWhat number is missing in the progression?")
     n = 0
     while n < 3:
         a = random.randint(1, 5)
@@ -21,14 +20,16 @@ def progression():
         greet = slic[rand_num_ind]
         slic.insert(rand_num_ind + 1, hidden)
         slic.pop(rand_num_ind)
-        print(' '.join(map(str, slic)))
+        strang =  ' '.join(map(str, slic))
+        print(f'Question:  {strang}')
         user_answer = prompt.string("Your answer: ")
         user_an = int(user_answer)
         if user_an == greet:
             print('Correct!')
         else:
             print(f''''{user_answer}' is wrong answer ;(. Correct'''
-                  f"answer was '{greet}'. Let's try again, {user_name}!")
+                  f" answer was '{greet}'. Let's try again, {user_name}!")
             return
         n = n + 1
     print(f'Congratulations, {user_name}!')
+
