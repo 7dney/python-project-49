@@ -22,7 +22,7 @@ def prime():
     n = 0
     while n < 3:
         a = random.randint(1, 100)
-        print(f'Queston: {a}')
+        print(f'Queston: {str(a)}')
         user_answer = prompt.string("Your answer: ")
         user_an = is_prime(a) and 'yes' or 'no'
         if user_answer == user_an:
