@@ -20,7 +20,7 @@ def gcd_f():
             print('Correct!')
         else:
             print(f'''{user_answer} is wrong answer ;(. Correct'''
-            f"answer was {c}. Let's try again, {user_name}")
+                  f"answer was {c}. Let's try again, {user_name}")
             return
         counter = counter + 1
     print(f'Congratulations {user_name}!')
