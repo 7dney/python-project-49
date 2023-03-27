@@ -12,21 +12,21 @@ def sign():
         return '*'
 
 
-def calc():
+def calc(): # noqa C901
     print("Welcome to the Brain Games!")
     user_name = prompt.string("May I have your name? ")
     print(f"Hello, {user_name}!\nWhat is the result of the expression?")
     counter = 0
     while counter < 3:
         mark = sign()
-        namber1 = random.randint(1, 30)
-        namber2 = random.randint(1, 30)
-        express = f'{namber1} {mark} {namber2}'
+        numb1 = random.randint(1, 30)
+        numb2 = random.randint(1, 30)
+        express = f'{numb1} {mark} {numb2}'
         print(f"Question: {express}")
         user_answer = prompt.string("Your answer: ")
         user_an = int(user_answer)
         if mark == '+':
-            summa = namber1 + namber2
+            summa = numb1 + numb2
             if summa == user_an:
                 print('Correct!')
             else:
@@ -34,7 +34,7 @@ def calc():
                       f''' was '{summa}'. Let's try again, {user_name}!''')
                 return
         if mark == '-':
-            subtract = namber1 - namber2
+            subtract = numb1 - numb2
             if subtract == user_an:
                 print('Correct!')
             else:
@@ -43,13 +43,13 @@ def calc():
                     f'''was '{subtract}'. Let's try again, {user_name}!''')
                 return
         if mark == '*':
-            myltip = namber1 * namber2
-            if myltip == user_an:
+            myl = numb1 * numb2
+            if myl == user_an:
                 print('Correct!')
             else:
                 print(
                     f''''{user_answer}' is wrong answer ;(. Correct answer'''
-                    f''' was '{myltip}'. Let's try again, {user_name}!''')
+                    f''' was '{myl}'. Let's try again, {user_name}!''')
                 return
         counter = counter + 1
     print(f'Congratulations, {user_name}!')
