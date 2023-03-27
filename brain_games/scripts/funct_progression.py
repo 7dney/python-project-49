@@ -8,9 +8,9 @@ def progression():
     print(f"Hello, {user_name}!\nWhat number is missing in the progression?")
     n = 0
     while n < 3:
-        a = random.randint(1, 5)
-        b = random.randint(50, 100)
-        c = random.randint(2, 9)
+        a = random.randint(1, 4)
+        b = random.randint(60, 100)
+        c = random.randint(2, 7)
 
         strange = list(range(a, b, c))
         slic = strange[:10]
@@ -20,7 +20,6 @@ def progression():
         greet = slic[rand_num_ind]
         slic.insert(rand_num_ind + 1, hidden)
         slic.pop(rand_num_ind)
-        print(slic)
         strang =  ' '.join(map(str, slic))
         print(f'Question:  {strang}')
         user_answer = prompt.string("Your answer: ")
