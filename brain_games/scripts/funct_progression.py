@@ -20,8 +20,8 @@ def progression():
         greet = slic[rand_num_ind]
         slic.insert(rand_num_ind + 1, hidden)
         slic.pop(rand_num_ind)
-        strang =  ' '.join(map(str, slic))
-        print(f'Question:  {strang}')
+        strang = ' '.join(map(str, slic))
+        print(f'Question: {strang}')
         user_answer = prompt.string("Your answer: ")
         user_an = int(user_answer)
         if user_an == greet:
