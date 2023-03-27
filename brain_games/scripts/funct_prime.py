@@ -17,7 +17,7 @@ def is_prime(number):
 def prime():
     print("Welcome to the Brain Games!")
     user_name = prompt.string("May I have your name? ")
-    print(f'''Hello, {user_name}!\nAnswer"yes" if given number is prime.'''
+    print(f'''Hello, {user_name}!\nAnswer "yes" if given number is prime.'''
           f''' Otherwise answer "no".''')
     n = 0
     while n < 3:
