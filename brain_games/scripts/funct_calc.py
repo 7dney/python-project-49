@@ -31,7 +31,7 @@ def calc():
                 print('Correct!')
             else:
                 print(f''''{user_answer}' is wrong answer ;(. Correct answer'''
-                      f''' was '{summa}'. Let's try again, {user_name}''')
+                      f''' was '{summa}'. Let's try again, {user_name}!''')
                 return
         if mark == '-':
             subtract = namber1 - namber2
@@ -40,7 +40,7 @@ def calc():
             else:
                 print(
                     f''''{user_answer}' is wrong answer ;(. Correct answer'''
-                    f'''was '{subtract}'. Let's try again, {user_name}''')
+                    f'''was '{subtract}'. Let's try again, {user_name}!''')
                 return
         if mark == '*':
             myltip = namber1 * namber2
@@ -49,7 +49,7 @@ def calc():
             else:
                 print(
                     f''''{user_answer}' is wrong answer ;(. Correct answer'''
-                    f''' was '{myltip}'. Let's try again, {user_name}''')
+                    f''' was '{myltip}'. Let's try again, {user_name}!''')
                 return
         counter = counter + 1
     print(f'Congratulations, {user_name}!')
