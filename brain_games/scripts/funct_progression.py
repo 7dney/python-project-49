@@ -27,8 +27,8 @@ def progression():
         if user_an == greet:
             print('Correct!')
         else:
-            print(f'''{user_answer} is wrong answer ;(. Correct'''
-                  f"answer was {greet}. Let's try again, {user_name}")
+            print(f''''{user_answer}' is wrong answer ;(. Correct'''
+                  f"answer was '{greet}'. Let's try again, {user_name}")
             return
         n = n + 1
     print(f'Congratulations {user_name}!')

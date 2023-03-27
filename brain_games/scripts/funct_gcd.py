@@ -19,8 +19,8 @@ def gcd_f():
         if user_an == c:
             print('Correct!')
         else:
-            print(f'''{user_answer} is wrong answer ;(. Correct'''
-                  f"answer was {c}. Let's try again, {user_name}")
+            print(f''''{user_answer}' is wrong answer ;(. Correct'''
+                  f"answer was '{c}'. Let's try again, {user_name}")
             return
         counter = counter + 1
     print(f'Congratulations {user_name}!')
