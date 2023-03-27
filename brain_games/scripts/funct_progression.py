@@ -32,4 +32,3 @@ def progression():
             return
         n = n + 1
     print(f'Congratulations, {user_name}!')
-
