@@ -14,3 +14,9 @@ def go_answer(question):
     print(f"Question: {question}")
     user_answer = prompt.string("Your answer: ")
     return user_answer
+
+
+def welcome_user_1():
+    print("Welcome to the Brain Games!")
+    user_name = prompt.string("May I have your name? ")
+    print(f"Hello, {user_name}!")
