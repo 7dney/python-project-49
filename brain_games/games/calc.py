@@ -1,7 +1,7 @@
 import random
 
 
-Condition = 'What is the result of the expression?'
+CONDITION = 'What is the result of the expression?'
 
 
 def sign():

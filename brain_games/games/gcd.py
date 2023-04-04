@@ -2,7 +2,7 @@ import random
 from math import gcd
 
 
-Condition = 'Find the greatest common divisor of given numbers.'
+CONDITION = 'Find the greatest common divisor of given numbers.'
 
 
 def funct_game():

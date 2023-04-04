@@ -1,7 +1,7 @@
 import random
 
 
-Condition = 'What number is missing in the progression?'
+CONDITION = 'What number is missing in the progression?'
 
 
 def funct_game():

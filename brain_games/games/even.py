@@ -1,7 +1,7 @@
 import random
 
 
-Condition = '''Answer "yes" if the number is even, otherwise answer "no".'''
+CONDITION = '''Answer "yes" if the number is even, otherwise answer "no".'''
 
 
 def funct_game():
