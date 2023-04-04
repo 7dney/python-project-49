@@ -31,4 +31,4 @@ Game "Is it a prime number?"
 
 
 Game: "Calculator"
-<a href="https://asciinema.org/a/xfbM3HJVTGzIlYmUA4VhatUKo" target="_blank"><img src="https://asciinema.org/a/xfbM3HJVTGzIlYmUA4VhatUKo.svg" /></a>
+<a href="https://asciinema.org/a/GDTYp6CSoTwIzadUACPpVj6vH" target="_blank"><img src="https://asciinema.org/a/GDTYp6CSoTwIzadUACPpVj6vH.svg" /></a>
