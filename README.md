@@ -25,4 +25,4 @@ https://asciinema.org/a/RSQ1aqOF5rhI0r2mqEUtH1Nva
 
 
 Game: "Calculator"
-https://asciinema.org/a/CcKJajwJZ0a6FNwndd0t1R3Af
+<a href="https://asciinema.org/a/xfbM3HJVTGzIlYmUA4VhatUKo" target="_blank"><img src="https://asciinema.org/a/xfbM3HJVTGzIlYmUA4VhatUKo.svg" /></a>
