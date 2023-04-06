@@ -5,10 +5,10 @@ import math
 CONDITION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def funct_game():
-    namber = random.randint(1, 100)
-    answer = is_prime(namber)
-    return namber, answer
+def get_question_and_right_answer():
+    question = random.randint(1, 100)
+    answer = 'yes' if is_prime(question) else 'no'
+    return question, answer
 
 
 def is_prime(number):
@@ -18,7 +18,5 @@ def is_prime(number):
     divisors = range(2, (number_sqrt + 1))
     for element in divisors:
         if number % element == 0:
-            us_answer = 'no'
-            return us_answer
-    us_answer = 'yes'
-    return us_answer
+            return False
+    return True
