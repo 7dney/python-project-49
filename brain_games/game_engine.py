@@ -1,5 +1,7 @@
 import prompt
 
+MAX_COUNTER = 3
+
 
 def welcome_user(game):
     print("Welcome to the Brain Games!")
@@ -12,7 +14,7 @@ def game_engine(game):
     user_name = welcome_user(game)
     print(game.CONDITION)
     count = 0
-    while count < 3:
+    while MAX_COUNTER > count:
         question, right_answer = game.get_question_and_right_answer()
         print(f"Question: {question}")
         user_answer = prompt.string("Your answer: ")
